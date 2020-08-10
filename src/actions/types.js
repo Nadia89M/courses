@@ -1,1 +1,4 @@
 export const GET_COURSES = 'GET_COURSES';
+export const GET_SINGLE_COURSE = 'GET_SINGLE_COURSES';
+export const RESET_LOADING = 'RESET_LOADING';
+export const GET_LOCATION = 'GET_LOCATION';

@@ -12,3 +12,23 @@
   background-color: #223c50 !important;
   color: white;
 }
+
+/*Single Course*/
+
+.container-singlecourse {
+  background-color: #223c50 !important;
+  color: white;
+  min-height: 100vh;
+}
+
+.jumbotron-singlecourse {
+  background-color: #223c50 !important;
+}
+
+/*Spinner*/
+
+.spinner {
+  width: '200px';
+  margin: 'auto';
+  display: 'block';
+}
