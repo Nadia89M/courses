@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import './App.css';
+import Courses from './components/Courses';
 
 // Redux
 import { Provider } from 'react-redux';
@@ -9,7 +10,7 @@ function App() {
   return (
     <Provider store={store}>
       <Fragment>
-        <h1>CareerFoundry</h1>
+        <Courses />
       </Fragment>
     </Provider>
   );

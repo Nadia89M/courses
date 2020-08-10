@@ -1,0 +1,8 @@
+/*Course*/
+
+.course-card {
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: #223c50 !important;
+  color: white;
+}
