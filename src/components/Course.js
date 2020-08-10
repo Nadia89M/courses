@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 
 const Course = props => {
   return (
@@ -7,9 +8,9 @@ const Course = props => {
         <h4>{props.title}</h4>
         <p>Author: {props.author}</p>
         <p>Next Start Date: {props.next_start}</p>
-        <a href={`/${props.slug}`} type='button' className='btn btn-light'>
+        <Link to={`/${props.slug}`} type='button' className='btn btn-light'>
           Discover More
-        </a>
+        </Link>
       </div>
     </Fragment>
   );
