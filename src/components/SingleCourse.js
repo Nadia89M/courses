@@ -5,13 +5,6 @@ import { getSingleCourse, resetLoading, getLocation } from '../actions/actions';
 import Spinner from './Spinner';
 
 class SingleCourse extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      continent: ''
-    };
-  }
-
   componentDidMount() {
     this.props.resetLoading();
     this.props.getLocation();
@@ -90,7 +83,8 @@ SingleCourse.propTypes = {
   resetLoading: PropTypes.func.isRequired,
   getLocation: PropTypes.func.isRequired,
   continent: PropTypes.string.isRequired,
-  current_course: PropTypes.object.isRequired
+  current_course: PropTypes.object.isRequired,
+  loading: PropTypes.bool.isRequired
 };
 
 const mapStateToProps = state => ({
